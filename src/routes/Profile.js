@@ -43,9 +43,13 @@ export default ({refreshUser, userObj}) => {
                     onChange={onChange}
                     type="text" 
                     autoFocus
-                    placeholder="Display name" 
+                    placeholder="이름을 변경해주세요" 
                     value={newDisplayName}
                     className="formInput"
+                    style={{
+                        paddingTop : 7,
+                        paddingBottom : 7
+                    }}
                 />
                 <input 
                     type="submit" 
@@ -54,6 +58,7 @@ export default ({refreshUser, userObj}) => {
                     style={{
                         marginTop: 10,
                     }}
+                    value="Update"
                 />
             </form>
             <span className="formBtn cancelBtn logOut" onClick={onLogOutClick}>

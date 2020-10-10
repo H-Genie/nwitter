@@ -4,11 +4,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 
-const Navigation = ({userObj}) => <nav>
-    <ul style={{ display: "flex", justifyContent: "center", marginTop: 50 }}>
+const Navigation = ({userObj}) => <nav style={{ display:"flex", justifyContent: "center" }}>
+    <ul style={{ display: "flex", justifyContent: "center", marginTop: 50, width: "fit-content" }}>
         <li>
-            <Link to="/" style={{ marginRight: 10 }}>
+            <Link to="/" 
+                style={{
+                    marginRight: 10,
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    fontSize: 12,
+                }}
+            >
                 <FontAwesomeIcon icon={faTwitter} color={"#04AAFF"} size="2x" />
+                <span style={{ marginTop: 10 }}>Nweet</span>
             </Link>
         </li>
 
