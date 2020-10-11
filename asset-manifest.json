@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/nwitter/static/css/main.08a51a2e.chunk.css",
-    "main.js": "/nwitter/static/js/main.73767d6c.chunk.js",
-    "main.js.map": "/nwitter/static/js/main.73767d6c.chunk.js.map",
+    "main.css": "/nwitter/static/css/main.fe1b0de2.chunk.css",
+    "main.js": "/nwitter/static/js/main.b2d9e522.chunk.js",
+    "main.js.map": "/nwitter/static/js/main.b2d9e522.chunk.js.map",
     "runtime-main.js": "/nwitter/static/js/runtime-main.222ae764.js",
     "runtime-main.js.map": "/nwitter/static/js/runtime-main.222ae764.js.map",
     "static/js/2.bb55a939.chunk.js": "/nwitter/static/js/2.bb55a939.chunk.js",
     "static/js/2.bb55a939.chunk.js.map": "/nwitter/static/js/2.bb55a939.chunk.js.map",
     "index.html": "/nwitter/index.html",
-    "precache-manifest.c65fec65c5fb491d253b85899b7c22e1.js": "/nwitter/precache-manifest.c65fec65c5fb491d253b85899b7c22e1.js",
+    "precache-manifest.220de9a916ed365ea90e08ebafe5dd69.js": "/nwitter/precache-manifest.220de9a916ed365ea90e08ebafe5dd69.js",
     "service-worker.js": "/nwitter/service-worker.js",
-    "static/css/main.08a51a2e.chunk.css.map": "/nwitter/static/css/main.08a51a2e.chunk.css.map",
+    "static/css/main.fe1b0de2.chunk.css.map": "/nwitter/static/css/main.fe1b0de2.chunk.css.map",
     "static/js/2.bb55a939.chunk.js.LICENSE.txt": "/nwitter/static/js/2.bb55a939.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.222ae764.js",
     "static/js/2.bb55a939.chunk.js",
-    "static/css/main.08a51a2e.chunk.css",
-    "static/js/main.73767d6c.chunk.js"
+    "static/css/main.fe1b0de2.chunk.css",
+    "static/js/main.b2d9e522.chunk.js"
   ]
 }
