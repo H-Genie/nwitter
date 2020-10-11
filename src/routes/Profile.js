@@ -13,7 +13,7 @@ export default ({refreshUser, userObj}) => {
         const nweets = await dbService
             .collection("nweets")
             .where("creatorId", "==", userObj.uid)
-            .orderBy("createdAt")
+            .orderBy("createdAt","asc")
             .get();
     };
 

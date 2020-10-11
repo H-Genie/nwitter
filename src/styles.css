@@ -169,7 +169,7 @@ form {
 }
 
 .nweet {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   background-color: white;
   width: 100%;
   max-width: 320px;
@@ -186,8 +186,8 @@ form {
 }
 
 .nweet img {
-  right: -15px;
-  bottom: -15px;
+  left: 0;
+  top: -40px;
   position: absolute;
   border-radius: 50%;
   width: 50px;
@@ -206,7 +206,7 @@ form {
 }
 
 .nweet__actions span:first-child {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 /* Auth */
@@ -242,7 +242,6 @@ form {
 
 .authInput {
   max-width: 320px;
-  width: 100%;
   padding: 10px;
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 1);
